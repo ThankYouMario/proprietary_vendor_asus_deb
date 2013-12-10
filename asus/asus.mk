@@ -14,7 +14,7 @@
 
 # Asus blob(s) necessary for Deb hardware
 PRODUCT_COPY_FILES := \
-    vendor/asus/deb/proprietary/asus/apns-conf.xml:system/etc/apns-conf.xml:asus \
-    vendor/asus/deb/proprietary/asus/libacdbdata.so:system/lib/libacdbdata.so:asus \
-    vendor/asus/deb/proprietary/asus/libAKM.so:system/lib/libAKM.so:asus
+    vendor/asus/deb/asus/apns-conf.xml:system/etc/apns-conf.xml:asus \
+    vendor/asus/deb/asus/libacdbdata.so:system/lib/libacdbdata.so:asus \
+    vendor/asus/deb/asus/libAKM.so:system/lib/libAKM.so:asus
 
