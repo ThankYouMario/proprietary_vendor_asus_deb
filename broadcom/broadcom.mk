@@ -14,6 +14,6 @@
 
 # Broadcom blob(s) necessary for Deb hardware
 PRODUCT_COPY_FILES := \
-    vendor/asus/deb/proprietary/broadcom/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
-    vendor/asus/deb/proprietary/broadcom/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom
+    vendor/asus/deb/broadcom/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
+    vendor/asus/deb/broadcom/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom
 
